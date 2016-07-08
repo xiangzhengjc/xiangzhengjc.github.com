@@ -85,14 +85,14 @@ cite span { color: #000; }
 
 #templatemo_header {
 	width: 920px;
-	height: 100px;
+	height: 150px;
 	padding: 0 30px;
         background-color:#0B7AC9;
 }
 
 #templatemo_header  #site_title {
 	float: left;
-	width: 300px;
+	width: 600px;
 	padding: 30px 0 0 0;
 }
 
