@@ -1,0 +1,349 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>祥正建材--建材图片</title>
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+<link href="css/jquery.ennui.contentslider.css" rel="stylesheet" type="text/css" media="screen,projection" />
+
+<link rel="stylesheet" href="fenye/pagination.css" />
+<script type="text/javascript" src="fenye/jquery.min.js"></script>
+<script type="text/javascript" src="fenye/jquery.pagination.js"></script>
+<script type="text/javascript">
+$(function(){
+    var initPagination = function() {
+        var num_entries = $("#hiddenresult div.result").length;
+        $("#Pagination").pagination(num_entries, {
+            num_edge_entries: 1, //边缘页数
+            num_display_entries: 4, //主体页数
+            callback: pageselectCallback,
+            items_per_page:1 //每页显示1项
+        });
+     }();
+     
+    function pageselectCallback(page_index, jq){
+        var new_content = $("#hiddenresult div.result:eq("+page_index+")").clone();
+        $("#Searchresult").empty().append(new_content); //装载对应分页的内容
+        return false;
+    }
+});
+</script>
+
+</head>
+<style type="text/css">
+    body {
+   background-image: url(images/index04.jpg);
+    background-attachment:fixed;
+}
+.test:hover{
+    transform: scale(2,2);
+    transition: .3s transform;
+}
+</style>
+<body>
+
+<div class="pagination"></div>
+
+<div id="templatemo_header_wrapper">
+
+	<div id="templatemo_header">
+    
+    	<div id="site_title">
+            <h1><a href="#" target="_parent">
+                <img src="images/sss2.jpg" alt="Web Templates" />
+                <span>山东.临沂</span>
+            </a></h1>
+        </div>
+        <div class="cleaner"></div>
+	</div><!-- end of header -->
+
+ 		<div id="templatemo_menu">
+            <ul>
+                <li><a href="index.html">公司主页</a></li>
+                <li><a href="jdxs.html">公司简介</a></li>
+                <li><a href="zhuye_jiechuxiaoyou.html">项目简介</a></li>
+                <li><a href="jdmj.html">产品介绍</a></li>
+                <li><a href="jdmt.html" class="current">建材图片</a></li>
+                <li><a href="aboutus.html">联系我们</a></li>
+            </ul>    	
+    	</div><!-- end of templatemo_menu -->
+
+        <div id="templatemo_banner">
+        
+   			<h3 align="center">山东临沂祥正建材欢迎你！</h3><br>
+            
+            <p >临沂市祥正建材有限公司是一家集砂石、水泥、钢材、铁道配件等大型综合性大型建材经销公司。总部位于风景秀美的山东省临沂市河东区，前身为已有近十年历史的中兴五金有限公司，作为中铁物资集团华北公司的战略合作单位，是中铁二十一局、中铁三局、水建四局等企事业单位的金牌建材供应商。公司经济实力雄厚注册资金达一千万人民币在同行业中遥遥领先。</p>
+            
+        </div>
+
+</div> <!-- end of header_wrapper -->
+
+<div id="templatemo_content_wrapper_outer">
+<div id="templatemo_content_wrapper_inner">
+<div id="templatemo_content_wrapper">
+
+	<div id="templatemo_content">
+        
+		<h2>我们力争做更好的建材产品</h2>
+        
+            <p>公司坚持以“用户满意，社会认同”的经营理念，真诚与社会各界朋友携手合作，愿以优质的产品，专业的施工技术，完善的售后服务体系为我国铁路建设事业作出更大的贡献。</p>  
+            
+          <div class="cleaner_h40"></div>
+            
+            
+            <div id="Pagination" class="pagination"><!-- 这里显示分页 --></div>
+            <div id="Searchresult"></div>
+        <div id="hiddenresult" style="display:none;">
+    <!-- 列表元素 -->
+            <div class="result">
+              <div id="gallery">
+                <ul>
+                    <li>
+                        <img class="test"src="images/1.jpg" alt="1">
+                    </li>
+                    <li>
+                        <img class="test"src="images/2.jpg" alt="2" />   
+                    </li>
+                    <li>
+                        <img class="test"src="images/3.jpg" alt="3" />
+                    </li>
+                    <li>
+                        <img class="test"src="images/4.jpg" alt="4" />   
+                    </li>  
+                    <li>
+                        <img class="test"src="images/5.jpg" alt="5" />
+                    </li>
+                    <li>
+                        <img class="test"src="images/6.jpg" alt="6" />   
+                    </li>
+                    <li>
+                        <img class="test"src="images/7.jpg" alt="7" />
+                    </li>
+                    <li>
+                        <img class="test"src="images/8.jpg" alt="8" />   
+                    </li>
+                    
+                </ul>
+             </div>
+            </div>
+            <div class="result">
+                <div id="gallery">
+                <ul>
+                    <li>
+                        <img class="test"src="images/9.jpg" alt="9">
+                    </li>
+                    <li>
+                        <img class="test"src="images/10.jpg" alt="10" />   
+                    </li>
+                    <li>
+                        <img class="test"src="images/11.jpg" alt="11" />
+                    </li>
+                    <li>
+                        <img class="test"src="images/12.jpg" alt="12" />   
+                    </li>  
+                    <li>
+                        <img class="test"src="images/13.jpg" alt="13" />
+                    </li>
+                    <li>
+                        <img class="test"src="images/14.jpg" alt="14" />   
+                    </li>
+                    <li>
+                        <img class="test"src="images/15.jpg" alt="15" />
+                    </li>
+                    <li>
+                        <img class="test"src="images/16.jpg" alt="16" />   
+                    </li>
+                    
+                </ul>
+             </div>
+            </div>
+            <div class="result">
+              <div id="gallery">
+                <ul>
+                    <li>
+                        <img class="test"src="images/17.jpg" alt="17">
+                    </li>
+                    <li>
+                        <img class="test"src="images/18.jpg" alt="18" />   
+                    </li>
+                    <li>
+                        <img class="test"src="images/19.jpg" alt="19" />
+                    </li>
+                    <li>
+                        <img class="test"src="images/20.jpg" alt="20" />   
+                    </li>  
+                    <li>
+                        <img class="test"src="images/21.jpg" alt="21" />
+                    </li>
+                    <li>
+                        <img class="test"src="images/22.jpg" alt="22" />   
+                    </li>
+                    <li>
+                        <img class="test"src="images/23.jpg" alt="23" />
+                    </li>
+                    <li>
+                        <img class="test"src="images/24.jpg" alt="24" />   
+                    </li>
+                  
+                </ul>
+             </div></div>
+            <div class="result">
+                <div id="gallery">
+                <ul>
+                    <li>
+                        <img class="test"src="images/25.jpg" alt="25">
+                    </li>
+                    <li>
+                        <img class="test"src="images/26.jpg" alt="26" />   
+                    </li>
+                    <li>
+                        <img class="test"src="images/27.jpg" alt="27" />
+                    </li>
+                    <li>
+                        <img class="test"src="images/28.jpg" alt="28" />   
+                    </li>  
+                    <li>
+                        <img class="test"src="images/29.jpg" alt="29" />
+                    </li>
+                    <li>
+                        <img class="test"src="images/30.jpg" alt="30" />   
+                    </li>
+                    <li>
+                        <img class="test"src="images/31.jpg" alt="31" />
+                    </li>
+                    <li>
+                        <img class="test"src="images/32.jpg" alt="32" />   
+                    </li>
+                  
+                </ul>
+             </div>
+            </div>
+            <div class="result">
+                <div id="gallery">
+                <ul>
+                    <li>
+                        <img class="test"src="images/33.jpg" alt="33">
+                    </li>
+                    <li>
+                        <img class="test"src="images/34.jpg" alt="34" />   
+                    </li>
+                    <li>
+                        <img class="test"src="images/35.jpg" alt="35" />
+                    </li>
+                    <li>
+                        <img class="test"src="images/36.jpg" alt="36" />   
+                    </li>  
+                    <li>
+                        <img class="test"src="images/37.jpg" alt="37" />
+                    </li>
+                    <li>
+                        <img class="test"src="images/38.jpg" alt="38" />   
+                    </li>
+                    <li>
+                        <img class="test"src="images/39.jpg" alt="39" />
+                    </li>
+                    <li>
+                        <img class="test"src="images/40.jpg" alt="40" />   
+                    </li>
+                   
+                </ul>
+             </div>
+            </div>
+            <div class="result">
+                <div id="gallery">
+                <ul>
+                    <li>
+                        <img class="test"src="images/41.jpg" alt="41">
+                    </li>
+                    <li>
+                        <img class="test"src="images/42.jpg" alt="42" />   
+                    </li>
+                    <li>
+                        <img class="test"src="images/43.jpg" alt="43" />
+                    </li>
+                    <li>
+                        <img class="test"src="images/44.jpg" alt="44" />   
+                    </li>  
+                    <li>
+                        <img class="test"src="images/45.jpg" alt="45" />
+                    </li>
+                    <li>
+                        <img class="test"src="images/46.jpg" alt="46" />   
+                    </li>
+                    <li>
+                        <img class="test"src="images/47.jpg" alt="47" />
+                    </li>
+                    <li>
+                        <img class="test"src="images/48.jpg" alt="48" />   
+                    </li>
+                
+             </div>
+            </div>
+        </div>
+      
+        </div> <!-- end of templatemo_content -->
+        
+      <div id="templatemo_sidebar">
+
+             <div id="news_section">
+                
+               <h2><span style="black">相关链接</span></h2>
+                <div class="news_box">
+                    <a href="http://www.cr21g.com.cn/">中铁二十一局</a>
+                </div>
+
+                <div class="news_box">
+                    <a href="http://www.ztsj.com.cn/">中铁三局</a>
+                </div>
+                
+                <div class="news_box">
+                    <a href="http://www.csdsj.com/" >水建四局</a>
+                </div>
+                
+                <div class="news_box">
+                    <a href="http://www.crec4.com/">中铁四局</a>
+                </div>
+
+                 <div class="news_box">
+                    <a href="http://www.bmlink.com/">中国建材网</a>
+                </div>
+
+                <div class="news_box">
+                    <a href="http://www.sdjcw.com/">山东建材网</a>
+                </div>
+                
+                <div class="cleaner"></div>  
+                   
+            </div>
+            
+              
+        
+            <div class="cleaner"></div>
+        </div> <!-- end of sidebar -->
+
+	<div class="cleaner"></div>
+</div>
+</div>
+</div>
+        
+<div id="templatemo_footer_wrapper">
+    <div id="templatemo_footer">
+
+     <ul class="footer_menu">
+            <li><a href="index.html">公司主页</a></li>
+            <li><a href="jdxs.html">公司简介</a></li>
+            <li><a href="jdmj.html">项目简介</a></li>
+            <li><a href="jdmt.html">产品介绍</a></li>
+            <li><a href="aboutus.html">联系我们</a></li>
+        </ul>
+    
+        Copyright (c) 2016 <a href="#">临沂祥正建材</a> | 
+        Designed by <a href="http://www.xiangzhengjc.com" title="xiangzhengjc" target="_blank">xiangzhengjc</a> | 
+        HTML5 &amp; CSS
+    
+</div> <!-- end of footer -->
+
+</div> <!-- end of footer_wrapper -->
+
+</body>
+</html
